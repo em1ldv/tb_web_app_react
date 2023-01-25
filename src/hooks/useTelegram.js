@@ -11,6 +11,7 @@ export function useTelegram() {
         if (tg.MainButton.isVisible) {
             tg.MainButton.hide();
         }else {
+            tg.MainButton.setText("TEST");
             tg.MainButton.show();
         }
     }

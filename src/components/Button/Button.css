@@ -3,4 +3,5 @@
     color: var(--tg-theme-text-color);
     padding: 5px 10px;
     cursor: pointer;
+    border: none;
 }

@@ -5,9 +5,9 @@ const tg = window.Telegram.WebApp;
 
 function App() {
   
-  useEffect(() => {
-    tg.Ready();
-  }, [])
+  // useEffect(() => {
+  //   tg.Ready();
+  // }, [])
 
   const OnClose = () => {
     tg.close();

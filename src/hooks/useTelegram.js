@@ -5,6 +5,8 @@ export function useTelegram() {
 
     const onClose = () => {
         tg.close();
+
+        tg.showPopup(["title" = "123", "message" = "test"])
     }
 
     const onToggleButton = () => {
@@ -16,6 +18,7 @@ export function useTelegram() {
         }
     }
 
+    
     return {
         onClose,
         tg,
